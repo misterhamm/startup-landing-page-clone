@@ -434,7 +434,27 @@ div {
     border: 1px solid chocolate;
 }
 
-.content {
+.links {
+    float: right;
+    padding-right: 27em;
+    color: gray;
+}
+
+.meet {
+    font-weight: bold;
+    color: darkslategrey;
+}
+
+.links > li {
     display: inline-block;
     list-style: none;
+    padding-left: 4em;
+}
+
+.logo {
+    padding-left: 20em;
+}
+
+.links:hover > li{
+    color: black;
 }
