@@ -425,3 +425,16 @@ td,
 th {
   padding: 0;
 }
+
+body {
+    background-color: lightgrey;
+}
+
+div {
+    border: 1px solid chocolate;
+}
+
+.content {
+    display: inline-block;
+    list-style: none;
+}
