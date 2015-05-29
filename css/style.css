@@ -503,3 +503,12 @@ h2 {
 .hero > h2 {
     margin-top: -0.8rem;
 }
+
+button {
+    background-color: #F15A29;
+    border-style: none;
+    border-radius: 4px;
+    border-color: #F15A29;
+    padding: 1rem 1.5rem;
+    font-size: 1.125rem;
+}
