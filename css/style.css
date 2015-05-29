@@ -524,6 +524,7 @@ button {
 
 .information {
     color: black;
+    text-align: center;
 }
 
 .icon {
@@ -533,4 +534,4 @@ button {
 .svg {
     height: 10rem;
     width: 10rem;
-}
+ }
