@@ -437,6 +437,7 @@ body {
     font-size: 16px;
     color: #838994;
     letter-spacing: 0.03em;
+    -webkit-font-smoothing: antialiased;
 }
 
 div {
@@ -475,4 +476,30 @@ li:hover {
     color:black;
     cursor: pointer;
     transition: color 0.5s ease;
+}
+
+.hero {
+    color: white;
+    text-align: center;
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65rem;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: 100;
+    margin-top: 0;
+    padding-top: 30rem;
+    font-size: 350%;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 200%;
+}
+
+.hero > h2 {
+    margin-top: -0.8rem;
 }
