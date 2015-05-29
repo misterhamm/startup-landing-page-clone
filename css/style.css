@@ -447,24 +447,23 @@ div {
     background-color: #fff;
 }
 
-.top-navigation > .content {
-    width: 970px;
-    height: 70px;
-    margin: 0 auto;
-}
 
 ul > li{
     display: inline-block;
     list-style: none;
+    padding-left: 2rem;
 }
 
 .links {
     float: right;
-}
+    }
 
 .content {
     padding: 0px 15px;
     box-sizing: border-box;
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
 }
 
 .active {
