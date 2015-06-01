@@ -446,6 +446,9 @@ div {
 
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 
 
@@ -531,10 +534,7 @@ button {
 }
 
 .cases .devices {
-    width: 33.33333333%;
-    display: inline-flex;
-    flex-wrap: nowrap;
-    border: 1px solid black;
-    box-sizing: border-box;
-    height: 4em;
+    width: 7%;
+    display: inline-block;
+    margin: 0 2rem 0 2rem;
 }
