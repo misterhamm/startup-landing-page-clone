@@ -533,8 +533,23 @@ button {
     margin-top: 8rem;
 }
 
-.cases .devices {
-    width: 7%;
+
+.cases .devices-container {
+    display: flex;
+/*
+    width: 15%;
     display: inline-block;
     margin: 0 2rem 0 2rem;
+*/
+}
+
+.cases .devices {
+    flex: 33.33%;
+    padding: 0 5%;
+    margin: 0 2rem 0 2rem;
+}
+
+
+.cases .device-desc {
+    font-size: 0.5em;
 }
