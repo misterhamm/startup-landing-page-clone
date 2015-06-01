@@ -490,6 +490,7 @@ ul > li{
 }
 
 h1,
+h2,
 h3 {
     font-weight: 300;
     box-sizing: border-box;
@@ -522,9 +523,11 @@ button {
     text-shadow: none;
 }
 
-.information {
+.cases {
     color: black;
     text-align: center;
+    font-size: 2rem;
+    margin-top: 8rem;
 }
 
 .icon {
