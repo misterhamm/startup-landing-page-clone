@@ -530,11 +530,11 @@ button {
     margin-top: 8rem;
 }
 
-.icon {
-    display: inline-block;
+.cases .devices {
+    width: 33.33333333%;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
 }
-
-.svg {
-    height: 10rem;
-    width: 10rem;
- }
