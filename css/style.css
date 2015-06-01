@@ -585,8 +585,20 @@ button {
 .fa {
     height: 2rem;
     width: 2rem;
-    border: black solid;
+    border-style: solid;
     border-radius: 150%;
     border-width: 0.1rem;
     border-color: gray;
+}
+
+.fa-twitter {
+    color: #4099FF;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-instagram {
+    color: #517FA4;
 }
