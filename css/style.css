@@ -494,7 +494,9 @@ ul > li{
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5{
     font-weight: 300;
     box-sizing: border-box;
 }
@@ -506,6 +508,15 @@ h1 {
 
 h3 {
     font-size: 1.563rem;
+}
+
+h4, h5 {
+    text-align: center;
+    color: black;
+}
+
+h4 {
+    font-weight: bold;
 }
 
 .introduction h1 {
@@ -535,21 +546,75 @@ button {
 
 
 .cases .devices-container {
-    display: flex;
-/*
-    width: 15%;
-    display: inline-block;
-    margin: 0 2rem 0 2rem;
-*/
+/*    display: flex;*/
+    
 }
 
 .cases .devices {
+    width: 15%;
+    display: inline-block;
+    margin: 0 2rem 0 2rem;
+/*
     flex: 33.33%;
     padding: 0 5%;
     margin: 0 2rem 0 2rem;
+*/
 }
 
 
 .cases .device-desc {
     font-size: 0.5em;
+}
+
+.devices-text {
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 15%;
+    margin: 0 2.2rem 8rem 2.2rem;
+}
+
+/*.icons {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.icons > li {
+
+    padding: 0 1.5rem 0 1.5rem;
+    border-width: 0.1rem;
+}
+
+.icons > li:hover {
+    cursor: pointer;
+}*/
+
+.social {
+    text-align: center;
+    padding: 0;
+}
+
+.icons {
+    padding: 0;
+}
+
+.fa {
+    height: 2rem;
+    width: 2rem;
+    border-style: solid;
+    border-radius: 150%;
+    border-width: 0.1rem;
+    border-color: gray;
+}
+
+.fa-twitter {
+    color: #4099FF;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-instagram {
+    color: #517FA4;
 }
