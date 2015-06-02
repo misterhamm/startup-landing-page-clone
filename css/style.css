@@ -546,19 +546,18 @@ button {
 
 
 .cases .devices-container {
-/*    display: flex;*/
-    
+    display: flex; 
 }
 
 .cases .devices {
+/*
     width: 15%;
     display: inline-block;
     margin: 0 2rem 0 2rem;
-/*
+*/
     flex: 33.33%;
     padding: 0 5%;
     margin: 0 2rem 0 2rem;
-*/
 }
 
 
