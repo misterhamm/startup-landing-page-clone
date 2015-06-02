@@ -432,7 +432,6 @@ th {
 /* end normalize */
 
 body {
-    background-color: lightgrey;
     font-family: "Roboto" "Helvetica Neue" sans-serif;
     font-size: 16px;
     color: #838994;
@@ -440,27 +439,29 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-div {
-    border: 1px solid chocolate;
-}
 
 .top-navigation {
     background-color: #fff;
     position: fixed;
     width: 100%;
     z-index: 9999;
+    padding-top: 1.5rem;
 }
 
 
 ul > li{
     display: inline-block;
     list-style: none;
-    padding-left: 2rem;
 }
 
 .links {
     float: right;
+    padding-left: 2rem;
     }
+
+.links li {
+    padding-left: 2rem;
+}
 
 .content {
     padding: 0px 15px;
@@ -475,7 +476,7 @@ ul > li{
     font-weight: 600;
 }
 
-.links:hover {
+.links li:hover {
     color:black;
     cursor: pointer;
     transition: color 0.5s ease;
@@ -542,21 +543,43 @@ button {
     text-align: center;
     font-size: 2rem;
     margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.cases .devices-container {
+    display: flex;
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 1.5rem;
 }
 
 .cases .devices {
-    width: 7%;
+    flex: 33.33%;
+    padding: 0 5%;
+    margin: 0 1rem;
+}
+
+
+/*
+.cases .devices-container {
+    display: flex;
+}
+
+.cases .devices {
     display: inline-block;
     margin: 0 7rem;
+}
+
+.devices {
+    width: 33%;
 }
 
 .devices-text {
     font-size: 1.5rem;
     display: inline-block;
-    width: 15%;
     margin: 0 2.2rem 8rem 2.2rem;
 }
-
+*/
 /*.icons {
     text-align: center;
     box-sizing: border-box;
@@ -578,18 +601,18 @@ button {
     padding: 0;
 }
 
-.icons {
-    padding: 0;
+.icons li {
+    margin-top: 0.rem;
 }
 
 .fa {
     height: 2rem;
     width: 2rem;
     border-style: solid;
-    border-radius: 150%;
+    border-radius: 50%;
     border-width: 0.1rem;
     border-color: gray;
-}
+ }
 
 .fa-twitter {
     color: #4099FF;
