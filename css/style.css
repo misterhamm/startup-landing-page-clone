@@ -563,17 +563,30 @@ button {
 /*
 .cases .devices-container {
     display: flex;
+=======
+>>>>>>> master
 }
 
+
+/*
+.cases .devices-container {
+    display: flex;
+}
 .cases .devices {
     display: inline-block;
     margin: 0 7rem;
 }
+<<<<<<< HEAD
 
 .devices {
     width: 33%;
 }
 
+=======
+.devices {
+    width: 33%;
+}
+>>>>>>> master
 .devices-text {
     font-size: 1.5rem;
     display: inline-block;
@@ -585,24 +598,19 @@ button {
     box-sizing: border-box;
     padding: 0;
 }
-
 .icons > li {
-
     padding: 0 1.5rem 0 1.5rem;
     border-width: 0.1rem;
 }
-
-.icons > li:hover {
-    cursor: pointer;
-}*/
+*/
 
 .social {
     text-align: center;
     padding: 0;
 }
 
-.icons li {
-    margin-top: 0.rem;
+.icons {
+padding: 0;
 }
 
 .fa {
@@ -611,7 +619,9 @@ button {
     border-style: solid;
     border-radius: 50%;
     border-width: 0.1rem;
-    border-color: gray;
+    border-color: dimgray;
+    margin: 0 1.5rem;
+    padding: .5rem;
  }
 
 .fa-twitter {
@@ -624,4 +634,8 @@ button {
 
 .fa-instagram {
     color: #517FA4;
+}
+
+.icons > li:hover {
+    cursor: pointer;
 }
